@@ -9,12 +9,36 @@ import slide9 from "../../images/slides/slide9.webp";
 function ImageCollage() {
   return (
     <div className="image-collage">
-      <img src={slide1} className="image-collage__slide slide1"></img>
-      <img src={slide3} className="image-collage__slide slide2"></img>
-      <img src={slide6} className="image-collage__slide slide4"></img>
-      <img src={slide4} className="image-collage__slide slide5"></img>
-      <img src={slide8} className="image-collage__slide slide6"></img>
-      <img src={slide9} className="image-collage__slide slide7"></img>
+      <img
+        src={slide1}
+        className="image-collage__slide slide1"
+        loading="lazy"
+      ></img>
+      <img
+        src={slide3}
+        className="image-collage__slide slide2"
+        loading="lazy"
+      ></img>
+      <img
+        src={slide6}
+        className="image-collage__slide slide4"
+        loading="lazy"
+      ></img>
+      <img
+        src={slide4}
+        className="image-collage__slide slide5"
+        loading="lazy"
+      ></img>
+      <img
+        src={slide8}
+        className="image-collage__slide slide6"
+        loading="lazy"
+      ></img>
+      <img
+        src={slide9}
+        className="image-collage__slide slide7"
+        loading="lazy"
+      ></img>
     </div>
   );
 }
