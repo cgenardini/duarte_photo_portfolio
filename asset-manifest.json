@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2d150967.css",
+    "main.js": "/static/js/main.a1ea8724.js",
+    "static/js/592.ecd546df.chunk.js": "/static/js/592.ecd546df.chunk.js",
+    "static/media/vid3.mp4": "/static/media/vid3.0472b1113deb21b27b19.mp4",
+    "static/media/vid2.mp4": "/static/media/vid2.9a54b9082ae41196554e.mp4",
+    "static/media/vid4.mp4": "/static/media/vid4.00819b3701be7e144fee.mp4",
+    "static/media/vid1.mp4": "/static/media/vid1.ad88efbb4b9176336ac2.mp4",
+    "static/media/slide9.webp": "/static/media/slide9.2c53859b7af2fd0b927e.webp",
+    "static/media/slide2.webp": "/static/media/slide2.10480ad421f8cae2ee18.webp",
+    "static/media/slide1.webp": "/static/media/slide1.4c1fbe6965d3f2e06866.webp",
+    "static/media/photographer.jpg": "/static/media/photographer.2da9aaf93331c1604678.jpg",
+    "static/media/board.webp": "/static/media/board.c9771f9075d71e11731a.webp",
+    "static/media/slide4.webp": "/static/media/slide4.110a1513e3ac6a529b8d.webp",
+    "static/media/slide11.webp": "/static/media/slide11.170de7bca01cfbf346ff.webp",
+    "static/media/bowl.webp": "/static/media/bowl.20b8e6a28cbdb79d3228.webp",
+    "static/media/slide3.jpg": "/static/media/slide3.493839a1a8726ed897a2.jpg",
+    "static/media/slide13.webp": "/static/media/slide13.9684aacf60ba269fd291.webp",
+    "static/media/slide7.webp": "/static/media/slide7.cb1bd862b857b6dae0ff.webp",
+    "static/media/slide10.webp": "/static/media/slide10.6a6881d6ee28a7b1ba40.webp",
+    "static/media/slide12.webp": "/static/media/slide12.22743d99f2e246bc26a5.webp",
+    "static/media/slide5.webp": "/static/media/slide5.5d95b8efdb2f1af2f2c3.webp",
+    "static/media/slide6.webp": "/static/media/slide6.be5dae4389a2cdd6732e.webp",
+    "static/media/lake.webp": "/static/media/lake.07ad6d4c15cc0a6cb0b7.webp",
+    "static/media/slide8.webp": "/static/media/slide8.c09ba74b7a992e78808f.webp",
+    "static/media/Barlow-SemiBold.woff": "/static/media/Barlow-SemiBold.d8d9bdf398d45e0d3775.woff",
+    "static/media/Barlow-Light.woff": "/static/media/Barlow-Light.1e6adc5f852f16d19ea0.woff",
+    "static/media/Barlow-Regular.woff": "/static/media/Barlow-Regular.8793c0edb0033b449c0a.woff",
+    "static/media/Barlow-Thin.woff": "/static/media/Barlow-Thin.2fdc356e910fea9bb75b.woff",
+    "index.html": "/index.html",
+    "static/media/triangle.svg": "/static/media/triangle.fbebe96a673f48fc5a82a3c3af774f5a.svg",
+    "static/media/menu.svg": "/static/media/menu.6150d07a056038976b5e.svg",
+    "main.2d150967.css.map": "/static/css/main.2d150967.css.map",
+    "main.a1ea8724.js.map": "/static/js/main.a1ea8724.js.map",
+    "592.ecd546df.chunk.js.map": "/static/js/592.ecd546df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d150967.css",
+    "static/js/main.a1ea8724.js"
+  ]
+}
