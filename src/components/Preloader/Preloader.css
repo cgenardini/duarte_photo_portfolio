@@ -1,0 +1,66 @@
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    } 
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.preloader__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.preloader__image_active{
+    opacity: 1;
+}
+
+.preloader__header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.preloader__logo {
+    background: transparent url('../../images/triangle.svg') no-repeat center/cover;
+    width: 40px;
+    height: 40px;
+   
+
+    border: none;
+    animation: pulse 3s infinite;
+    padding: 0;
+    cursor: pointer;
+   
+}
+
+.preloader__header{
+color: #ffffff;
+letter-spacing: 2px;
+}
+

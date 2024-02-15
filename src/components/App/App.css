@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Barlow-Regular';
+  src: url('../../fonts/Barlow-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Barlow-Light';
+  src: url('../../fonts/Barlow-Light.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Barlow-Thin';
+  src: url('../../fonts/Barlow-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Barlow-SemiBold';
+  src: url('../../fonts/Barlow-SemiBold.woff') format('woff');
+}
+
+
+.app {
+  min-height: 100vh;
+  background-color: #fffefc;
+  font-family: 'Barlow-Regular', sans-serif;
+}
+

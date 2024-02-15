@@ -1,0 +1,52 @@
+.discover{
+    height: 900px;
+    /* background: url('../../images/slides/slide5.jpg') no-repeat center/cover; */
+    background-color: #001e17;;
+    background-attachment: fixed;
+    position: relative;
+    flex-direction: column;
+ display: flex;
+ justify-content: end;
+ align-items: center;
+}
+
+.discover__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+}
+
+.discover__header{
+    color: white;
+    z-index: 2;
+    margin: 0 0 60px;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-family: 'Barlow-SemiBold';
+}
+
+
+.discover__button{
+background-color: transparent;
+    height: 40px;
+    width: 180px;
+    border: solid 1px white ;
+    color: white;
+letter-spacing: .8px;
+    font-size: 18px;
+    padding: 0;
+    z-index: 2;
+    margin: 0 0 100px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.discover__button:hover{
+    background-color: white;
+    color: #001e17;
+}
