@@ -1,3 +1,4 @@
+import Connect from "../Connect/Connect";
 import Discover from "../Discover/Discover";
 import Intro from "../Intro/Intro";
 import MainClients from "../MainClients/MainClients";
@@ -13,8 +14,7 @@ function Main() {
       <Quote />
       <MainClients />
       <Work />
-      <div className="main__services">services</div>
-      <div className="main__contact">contact</div>
+      <Connect />
     </section>
   );
 }

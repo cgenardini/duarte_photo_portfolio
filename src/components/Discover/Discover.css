@@ -27,7 +27,9 @@
     margin: 0 0 60px;
     letter-spacing: 5px;
     font-size: 30px;
-    font-family: 'Barlow-SemiBold';
+    font-family: 'Barlow-Thin';
+    letter-spacing: 1px;
+  
 }
 
 

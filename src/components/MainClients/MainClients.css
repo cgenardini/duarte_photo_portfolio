@@ -6,6 +6,8 @@
     align-items: center;
     color: white;
     gap: 60px;
+    font-family: 'Barlow-Thin';
+letter-spacing: 1px;
 }
 
 .main-clients__clients{
@@ -14,6 +16,7 @@ width: 300px;
 margin: 0;
 display: flex;
 justify-content: start;
+
 }
 
 .main-clients__clients-header{

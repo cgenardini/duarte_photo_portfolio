@@ -2,8 +2,8 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer>
-      <div>Footer</div>
+    <footer className="footer">
+      <div className="copywrite"></div>
     </footer>
   );
 }

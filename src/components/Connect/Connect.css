@@ -1,0 +1,49 @@
+.connect{
+    height: 500px;
+    background: url('../../images/slides/interior.jpg') no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+justify-content: end;
+align-items: center;
+flex-direction: column;
+
+}
+
+.connect__header {
+    color: white;
+    z-index: 1;
+    font-family: 'Barlow-Thin';
+    letter-spacing: 1px;
+    margin: 0 0 40px;
+}
+
+.connect__button{
+    position: relative;
+z-index: 1;
+background-color: transparent;
+color: white;
+border: solid 1px white;
+border-radius: 2px;
+width: 150px;
+height: 40px;
+font-size: 20px;
+letter-spacing: 2px;
+margin: 0 0 150px;
+cursor: pointer;
+
+}
+
+.connect__button:hover{
+    background-color: white;
+    color: #7f2b0a;
+}
+
+.connect__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}

@@ -19,6 +19,12 @@
   src: url('../../fonts/Barlow-SemiBold.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('../../fonts/Montserrat-Black.woff') format('woff');
+}
+
+
 
 .app {
   min-height: 100vh;
