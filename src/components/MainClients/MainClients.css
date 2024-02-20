@@ -1,6 +1,7 @@
 .main-clients{
     height: 700px;
     background-color: #7f2b0a;;
+
     display: flex;
     justify-content: center;
     align-items: center;

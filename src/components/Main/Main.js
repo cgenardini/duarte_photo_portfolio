@@ -13,7 +13,7 @@ function Main() {
       <Intro />
       <Quote />
       <MainClients />
-      <Work />
+      {/* <Work /> */}
       <Connect />
     </section>
   );

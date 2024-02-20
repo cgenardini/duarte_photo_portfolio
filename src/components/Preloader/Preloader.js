@@ -2,9 +2,15 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import "./Preloader.css";
 import { slides, video } from "../../utils/constants";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Preloader({ onClick }) {
   const [currentSlide, setCurrentSlide] = React.useState(0);
+
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -34,8 +40,19 @@ function Preloader({ onClick }) {
         </video>
       ))}
       <div className="preloader__header-container">
-        <button className="preloader__logo" onClick={onClick}></button>
-        <h1 className="preloader__header">Joseph Duarte</h1>
+        <button
+          className="preloader__logo"
+          onClick={onClick}
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        ></button>
+        <h1
+          className="preloader__header"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
+          Joseph Duarte
+        </h1>
       </div>
     </div>
   );

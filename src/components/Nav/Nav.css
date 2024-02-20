@@ -11,7 +11,13 @@ justify-content: space-between;
 background-color: transparent;
 }
 
+
+
 .nav_scroll {
+    background-color: white;
+}
+
+.nav__info{
     background-color: white;
 }
 
@@ -20,6 +26,11 @@ background-color: transparent;
     height: 40px;
     width: 40px;
     margin-left: 40px;
+    cursor: pointer;
+}
+
+.nav__logo:hover {
+    opacity: 80%;
 }
 
 .nav__name{
@@ -27,10 +38,24 @@ font-size: 20px;
 color: #7f2b0a;
 }
 
+.nav__portfolio{
+    background-color: white;
+    }
+
+/* .nav__name_about{
+    color: white;
+} */
+
 .nav__menu {
     background: url('../../images/menu.svg') no-repeat center/cover;
     height: 40px;
     width: 40px;
     border: none;
     margin-right: 40px;
+    cursor: pointer;
 }
+
+.nav__menu:hover {
+    opacity: 80%;
+}
+

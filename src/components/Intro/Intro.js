@@ -1,12 +1,23 @@
 import "./Intro.css";
 import pic from "../../images/photographer.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Intro() {
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
+
   return (
     <section className="intro">
       <img src={pic} alt="photographer intro pic" className="intro__image" />
       <div className="intro__container">
-        <p className="intro__paragraph">
+        <p
+          className="intro__paragraph"
+          data-aos="fade-up"
+          data-aos-duration="1800"
+        >
           In the world of photography, Alex Mercer stands out as a visionary,
           capturing the unseen beauty and fleeting moments that many overlook.
           His journey behind the lens is a testament to his deep passion for
@@ -17,7 +28,12 @@ function Intro() {
           echoing Alex's belief that photography is the art of seeing the
           extraordinary in the ordinary.
         </p>
-        <button type="button" className="intro__button">
+        <button
+          type="button"
+          className="intro__button"
+          data-aos="fade-up"
+          data-aos-duration="1800"
+        >
           Learn More
         </button>
       </div>

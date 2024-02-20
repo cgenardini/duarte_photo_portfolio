@@ -46,6 +46,8 @@ letter-spacing: .8px;
     margin: 0 0 100px;
     cursor: pointer;
     border-radius: 2px;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+  
 }
 
 .discover__button:hover{
