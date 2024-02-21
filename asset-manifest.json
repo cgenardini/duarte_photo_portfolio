@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/duarte_photo_portfolio/static/css/main.dfdd0839.css",
-    "main.js": "/duarte_photo_portfolio/static/js/main.15e1ccd4.js",
+    "main.js": "/duarte_photo_portfolio/static/js/main.ad106f01.js",
     "static/js/592.ecd546df.chunk.js": "/duarte_photo_portfolio/static/js/592.ecd546df.chunk.js",
     "static/media/vid3.mp4": "/duarte_photo_portfolio/static/media/vid3.0472b1113deb21b27b19.mp4",
     "static/media/vid2.mp4": "/duarte_photo_portfolio/static/media/vid2.9a54b9082ae41196554e.mp4",
@@ -44,11 +44,11 @@
     "static/media/menu.svg": "/duarte_photo_portfolio/static/media/menu.6150d07a056038976b5e.svg",
     "static/media/arrow.svg": "/duarte_photo_portfolio/static/media/arrow.bcc22d9e565233795298e9901a91f3b4.svg",
     "main.dfdd0839.css.map": "/duarte_photo_portfolio/static/css/main.dfdd0839.css.map",
-    "main.15e1ccd4.js.map": "/duarte_photo_portfolio/static/js/main.15e1ccd4.js.map",
+    "main.ad106f01.js.map": "/duarte_photo_portfolio/static/js/main.ad106f01.js.map",
     "592.ecd546df.chunk.js.map": "/duarte_photo_portfolio/static/js/592.ecd546df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfdd0839.css",
-    "static/js/main.15e1ccd4.js"
+    "static/js/main.ad106f01.js"
   ]
 }
