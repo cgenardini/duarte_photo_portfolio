@@ -11,12 +11,20 @@ import Footer from "../Footer/Footer";
 import NavPopup from "../NavPopup/NavPopup";
 import Info from "../Info/Info";
 import Portfolio from "../Portfolio/Portfolio";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const location = useLocation();
   const [preloader, setPreloader] = React.useState(true);
   const [currentPopup, setCurrentPopup] = React.useState("");
   const [currentPage, setCurrentPage] = React.useState("");
+
+  const handleCloseNav = (e) => {
+    e.preventDefault();
+
+    handleClosePopup(e);
+  };
 
   const handleOpenNavMenu = (e) => {
     e.preventDefault();

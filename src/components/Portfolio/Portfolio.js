@@ -41,8 +41,34 @@ function Portfolio() {
           }
         />
 
-        <Route path="food" element={<PortfolioCategory />} />
+        <Route
+          path="food"
+          element={<PortfolioCategory title="Food & Beverage" />}
+        />
+        <Route
+          path="interiors"
+          element={<PortfolioCategory title="Interiors & Spaces" />}
+        />
+        <Route
+          path="brands"
+          element={<PortfolioCategory title="Brands & Products" />}
+        />
+
+        <Route
+          path="events"
+          element={<PortfolioCategory title="Events & Social" />}
+        />
+
+        <Route
+          path="people"
+          element={<PortfolioCategory title="People & Life" />}
+        />
+        <Route
+          path="places"
+          element={<PortfolioCategory title="Places & Stories" />}
+        />
       </Routes>
+
       <Connect />
     </div>
   );

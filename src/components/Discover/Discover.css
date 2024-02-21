@@ -1,7 +1,7 @@
 .discover{
     height: 900px;
     /* background: url('../../images/slides/slide5.jpg') no-repeat center/cover; */
-    background-color: #001e17;;
+    background-color: #001e17;
     background-attachment: fixed;
     position: relative;
     flex-direction: column;
@@ -24,10 +24,10 @@
 .discover__header{
     color: white;
     z-index: 2;
-    margin: 0 0 60px;
+    margin: 0 0 40px;
     letter-spacing: 5px;
     font-size: 30px;
-    font-family: 'Barlow-Thin';
+    font-family: 'Anton-Reg';
     letter-spacing: 1px;
   
 }

@@ -1,3 +1,14 @@
+@keyframes fadeOutLeft {
+    from {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+
 .nav-popup {
 position: fixed;
 top: 0;
@@ -10,7 +21,10 @@ display: flex;
 justify-content: end;
 z-index: 40;
 
+
 }
+
+
 
 .nav-popup__container {
 height: 100vh;
@@ -21,8 +35,16 @@ display: flex;
 flex-direction: column;
 align-items: end;
 justify-content: start;
-transition: 0.5s; 
 
+
+}
+
+.nav-popup__container--fade-out {
+    animation: fadeOutLeft 0.5s forwards;
+  }
+
+.nav-popup__container_open{
+ 
 }
 
 .nav-popup__close-button{

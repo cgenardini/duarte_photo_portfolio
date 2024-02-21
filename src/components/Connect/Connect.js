@@ -5,14 +5,14 @@ import "./Connect.css";
 
 function Connect() {
   useEffect(() => {
-    AOS.init({ once: false });
+    AOS.init({ once: true });
   }, []);
 
   return (
     <section className="connect">
       <h2
         data-aos="fade-up"
-        data-aos-duration="1800"
+        data-aos-duration="1500"
         className="connect__header"
       >
         Bring Your Vision to Life
@@ -20,7 +20,7 @@ function Connect() {
       <button
         type="button"
         data-aos="fade-up"
-        data-aos-duration="1800"
+        data-aos-duration="1500"
         className="connect__button"
       >
         Connect

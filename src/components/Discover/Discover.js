@@ -15,7 +15,7 @@ function Discover() {
       <h2
         className="discover__header"
         data-aos="fade-up"
-        data-aos-duration="1800"
+        data-aos-duration="1500"
       >
         Through the Lens
       </h2>
@@ -23,7 +23,7 @@ function Discover() {
         type="button"
         className="discover__button"
         data-aos="fade-up"
-        data-aos-duration="1800"
+        data-aos-duration="1500"
       >
         Discover
       </button>

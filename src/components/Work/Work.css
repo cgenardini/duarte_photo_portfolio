@@ -30,7 +30,7 @@
     /* row-gap: 20px; */
    height: 400px;
     justify-content: start;
-    margin: 150px 60px 80px;  
+    margin: 150px 60px 100px;  
     overflow-x: auto;
     align-items: center;
 }
@@ -59,7 +59,8 @@
     margin: 0 auto 30px;
     letter-spacing: 1px;
     color: white;
-    font-family: 'Barlow-Thin';
+    font-family: 'Anton-Reg';
+    font-size: 30px;
 }
 
 .work__button {

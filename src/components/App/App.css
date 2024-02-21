@@ -24,6 +24,12 @@
   src: url('../../fonts/Montserrat-Black.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Anton-Reg';
+  src: url('../../fonts/Anton-Regular.woff') format('woff');
+}
+
+
 
 
 .app {

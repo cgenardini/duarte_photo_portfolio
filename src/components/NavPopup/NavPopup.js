@@ -1,10 +1,21 @@
 import "./NavPopup.css";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
-function NavPopup({ onClickClose }) {
+function NavPopup({ onClickClose, navIsOpen }) {
+  useEffect(() => {
+    AOS.init({ once: false });
+  });
+
   return (
-    <div className="nav-popup">
-      <div className="nav-popup__container">
+    <div className={`nav-popup`}>
+      <div
+        className={`nav-popup__container`}
+        data-aos="fade-left"
+        data-aos-duration="1500"
+      >
         <button
           type="button"
           className="nav-popup__close-button"
