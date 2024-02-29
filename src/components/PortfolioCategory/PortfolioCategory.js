@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import PortforlioGallery from "../PortfolioGallery/PortfolioGallery";
 import Connect from "../Connect/Connect";
 
-function PortfolioCategory({ title }) {
+function PortfolioCategory({ title, imagePopupOpen, setImagePopupOpen }) {
   return (
     <div className="port-category">
       <section className="port-category__header">
@@ -18,7 +18,10 @@ function PortfolioCategory({ title }) {
         <div className="port-category__overlay"></div>
       </section>
       <section className="port-category__container">
-        <PortforlioGallery />
+        <PortforlioGallery
+          imagePopupOpen={imagePopupOpen}
+          setImagePopupOpen={setImagePopupOpen}
+        />
       </section>
     </div>
   );

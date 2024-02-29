@@ -52,6 +52,10 @@ justify-content: center;
     font-size: 45px;
 }
 
+.port-section__button-container{
+    z-index: 1;
+}
+
 .port-section__button {
     width: 150px;
     height: 40px;

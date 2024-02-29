@@ -3,8 +3,9 @@ import pic from "../../images/photographer.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
-function Intro() {
+function Intro({ handleTopPage }) {
   useEffect(() => {
     AOS.init({ once: true });
   }, []);
@@ -28,14 +29,17 @@ function Intro() {
           echoing Alex's belief that photography is the art of seeing the
           extraordinary in the ordinary.
         </p>
-        <button
-          type="button"
-          className="intro__button"
+        <div
           data-aos="fade-up"
           data-aos-duration="1800"
+          onClick={handleTopPage}
         >
-          Learn More
-        </button>
+          <Link to="/info" className="intro__link">
+            <button type="button" className="intro__button">
+              Learn More
+            </button>
+          </Link>
+        </div>
       </div>
       <div className="intro__overlay"></div>
     </section>

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./Nav.css";
 import logo from "../../images/triangle.svg";
+import { Link } from "react-router-dom";
 
 function Nav({ onClickNavMenu, currentPage }) {
   const [scrolled, setScrolled] = React.useState(false);
@@ -20,7 +21,10 @@ function Nav({ onClickNavMenu, currentPage }) {
 
   return (
     <div className={`nav nav__${currentPage} ${scrolled ? "nav_scroll" : ""}`}>
-      <img src={logo} alt="logo" className="nav__logo" />
+      <Link to="/" className="nav__link">
+        <img src={logo} alt="logo" className="nav__logo" />
+      </Link>
+
       <div className={`nav__name nav__name_${currentPage}`}>
         Joseph Nicolas Duarte
       </div>

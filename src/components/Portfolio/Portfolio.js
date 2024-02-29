@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import PortfolioCategory from "../PortfolioCategory/PortfolioCategory";
 
-function Portfolio() {
+function Portfolio({ imagePopupOpen, setImagePopupOpen }) {
   const location = useLocation();
 
   useEffect(() => {
@@ -43,29 +43,65 @@ function Portfolio() {
 
         <Route
           path="food"
-          element={<PortfolioCategory title="Food & Beverage" />}
+          element={
+            <PortfolioCategory
+              title="Food & Beverage"
+              imagePopupOpen={imagePopupOpen}
+              setImagePopupOpen={setImagePopupOpen}
+            />
+          }
         />
         <Route
           path="interiors"
-          element={<PortfolioCategory title="Interiors & Spaces" />}
+          element={
+            <PortfolioCategory
+              title="Interiors & Spaces"
+              imagePopupOpen={imagePopupOpen}
+              setImagePopupOpen={setImagePopupOpen}
+            />
+          }
         />
         <Route
           path="brands"
-          element={<PortfolioCategory title="Brands & Products" />}
+          element={
+            <PortfolioCategory
+              title="Brands & Products"
+              imagePopupOpen={imagePopupOpen}
+              setImagePopupOpen={setImagePopupOpen}
+            />
+          }
         />
 
         <Route
           path="events"
-          element={<PortfolioCategory title="Events & Social" />}
+          element={
+            <PortfolioCategory
+              title="Events & Social"
+              imagePopupOpen={imagePopupOpen}
+              setImagePopupOpen={setImagePopupOpen}
+            />
+          }
         />
 
         <Route
           path="people"
-          element={<PortfolioCategory title="People & Life" />}
+          element={
+            <PortfolioCategory
+              title="People & Life"
+              imagePopupOpen={imagePopupOpen}
+              setImagePopupOpen={setImagePopupOpen}
+            />
+          }
         />
         <Route
           path="places"
-          element={<PortfolioCategory title="Places & Stories" />}
+          element={
+            <PortfolioCategory
+              title="Places & Stories"
+              imagePopupOpen={imagePopupOpen}
+              setImagePopupOpen={setImagePopupOpen}
+            />
+          }
         />
       </Routes>
 

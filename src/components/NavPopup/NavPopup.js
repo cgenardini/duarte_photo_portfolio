@@ -4,13 +4,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-function NavPopup({ onClickClose, navIsOpen }) {
+function NavPopup({ onClickClose, handleTopPage }) {
+  const handleClickNavButton = (e) => {
+    handleTopPage(e);
+    onClickClose(e);
+  };
+
   useEffect(() => {
     AOS.init({ once: false });
   });
 
   return (
-    <div className={`nav-popup`}>
+    <div className={`nav-popup popup`}>
       <div
         className={`nav-popup__container`}
         data-aos="fade-left"
@@ -22,13 +27,13 @@ function NavPopup({ onClickClose, navIsOpen }) {
           onClick={onClickClose}
         ></button>
         <ul className="nav-popup__list">
-          <li className="nav-popup__list-item" onClick={onClickClose}>
+          <li className="nav-popup__list-item" onClick={handleClickNavButton}>
             <Link to="/" className="nav__link">
               Home
             </Link>
           </li>
 
-          <li className="nav-popup__list-item" onClick={onClickClose}>
+          <li className="nav-popup__list-item" onClick={handleClickNavButton}>
             <Link to="/info#about" className="nav__link">
               {" "}
               About{" "}
@@ -41,14 +46,18 @@ function NavPopup({ onClickClose, navIsOpen }) {
             </Link>
           </li>
 
-          <li className="nav-popup__list-item" onClick={onClickClose}>
+          <li className="nav-popup__list-item" onClick={handleClickNavButton}>
             <Link to="/portfolio/" className="nav__link">
               {" "}
               Portfolio
             </Link>
           </li>
 
-          <li className="nav-popup__list-item">Contact</li>
+          <li className="nav-popup__list-item" onClick={handleClickNavButton}>
+            <Link to="/contact" className="nav__link">
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

@@ -1,0 +1,38 @@
+.insta {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7f2b0a;
+}
+
+.insta__image {
+    margin-left: 60px;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.insta__container {
+    max-width: 500px;
+    margin: 0 60px 0 130px;
+}
+
+.insta__title-container{
+    display: flex;
+    align-items: center;
+}
+
+.insta__title {
+    font-family: 'Anton-Reg';
+    font-size: 30px;
+}
+
+.insta__logo {
+    height: 40px;
+    width: 40px;
+    margin: 0 0 0 40px;
+}
+
+.insta__paragraph {
+   font-size: 20px;
+}

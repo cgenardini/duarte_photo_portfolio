@@ -1,0 +1,36 @@
+.image-popup{
+    position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(255, 255, 255, 0.8);
+width: 100%;
+z-index: 40;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.image-popup__container{
+
+}
+
+.image-popup__image{
+    max-width: 800px;
+    height: 600px;
+    border-radius: 2px;
+}
+
+.image-popup__close-button{
+    background: url('../../images/Close-Icon.svg') no-repeat center/cover;
+    height: 40px;
+    width: 40px;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 0;
+}

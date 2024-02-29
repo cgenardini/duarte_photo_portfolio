@@ -19,6 +19,10 @@ flex-direction: column;
     margin: 0 0 30px;
 }
 
+.connect__button-container{
+ z-index: 1;
+}
+
 .connect__button{
     position: relative;
 z-index: 1;
@@ -32,7 +36,7 @@ font-size: 20px;
 letter-spacing: 2px;
 margin: 0 0 150px;
 cursor: pointer;
-transition: background-color 3s ease-in-out, color 3s ease-in-out;
+transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 
 }
 
@@ -41,6 +45,8 @@ transition: background-color 3s ease-in-out, color 3s ease-in-out;
     color: #7f2b0a;
 }
 
+
+
 .connect__overlay{
     position: absolute;
     top: 0;
@@ -48,4 +54,5 @@ transition: background-color 3s ease-in-out, color 3s ease-in-out;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
 }

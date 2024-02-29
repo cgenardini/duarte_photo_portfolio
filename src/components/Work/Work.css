@@ -63,6 +63,10 @@
     font-size: 30px;
 }
 
+.work__button-container{
+    margin: 0 auto;
+}
+
 .work__button {
     margin: 0 auto 120px;
     background-color: transparent;
@@ -75,6 +79,7 @@
     letter-spacing: 2px;
  
     cursor: pointer;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
    
 }
 

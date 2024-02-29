@@ -27,6 +27,7 @@ background-color: transparent;
     width: 40px;
     margin-left: 40px;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .nav__logo:hover {
@@ -53,6 +54,7 @@ color: #7f2b0a;
     border: none;
     margin-right: 40px;
     cursor: pointer;
+    transition: opacity 0.5s ease;
 }
 
 .nav__menu:hover {

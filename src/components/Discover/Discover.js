@@ -3,30 +3,30 @@ import "./Discover.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
-function Discover() {
+function Discover({ handleTopPage }) {
   useEffect(() => {
     AOS.init({ once: true });
   }, []);
   return (
     <div className="discover">
       <ImageCollage />
-      {/* <div className="discover__overlay"></div> */}
+
       <h2
         className="discover__header"
         data-aos="fade-up"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
       >
         Through the Lens
       </h2>
-      <button
-        type="button"
-        className="discover__button"
-        data-aos="fade-up"
-        data-aos-duration="1500"
-      >
-        Discover
-      </button>
+      <div data-aos="fade-up" data-aos-duration="1000" onClick={handleTopPage}>
+        <Link to="/portfolio" className="discover__link">
+          <button type="button" className="discover__button">
+            Discover
+          </button>
+        </Link>
+      </div>
     </div>
   );
 }

@@ -6,15 +6,15 @@ import Quote from "../Quote/Quote";
 import Work from "../Work/Work";
 import "./Main.css";
 
-function Main() {
+function Main({ handleTopPage }) {
   return (
     <section className="main">
-      <Discover />
-      <Intro />
+      <Discover handleTopPage={handleTopPage} />
+      <Intro handleTopPage={handleTopPage} />
       <Quote />
       <MainClients />
       {/* <Work /> */}
-      <Connect />
+      <Connect handleTopPage={handleTopPage} />
     </section>
   );
 }

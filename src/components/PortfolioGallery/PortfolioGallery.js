@@ -7,8 +7,22 @@ import Masonry from "react-responsive-masonry";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useState } from "react";
+import ImagePopup from "../ImagePopup/ImagePopup";
+import React from "react";
 
-function PortforlioGallery() {
+function PortforlioGallery({ imagePopupOpen, setImagePopupOpen }) {
+  const [currentImage, setCurrentImage] = React.useState("");
+
+  const handleImageClick = (src) => {
+    setCurrentImage(src);
+    setImagePopupOpen(true);
+  };
+
+  const handleCloseImagePopup = () => {
+    setImagePopupOpen(false);
+  };
+
   useEffect(() => {
     AOS.init({ once: true });
   }, []);
@@ -25,9 +39,10 @@ function PortforlioGallery() {
                     key={index}
                     src={slide.src}
                     className="gallery__item"
-                    alt=""
+                    alt={`gallery image ${index}`}
                     //   data-aos="fade-up"
                     //   data-aos-duration="1800"
+                    onClick={() => handleImageClick(slide)}
                   />
                 </div>
               );
@@ -41,6 +56,7 @@ function PortforlioGallery() {
                     loop
                     muted
                     playsInline
+                    onClick={() => handleImageClick(slide)}
                     //   data-aos="fade-up"
                     //   data-aos-duration="1500"
                   >
@@ -53,6 +69,12 @@ function PortforlioGallery() {
           })}
         </Masonry>
       </ResponsiveMasonry>
+      {imagePopupOpen && (
+        <ImagePopup
+          img={currentImage}
+          handleCloseImagePopup={handleCloseImagePopup}
+        />
+      )}
     </div>
   );
 }

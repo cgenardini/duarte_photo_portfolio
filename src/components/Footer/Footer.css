@@ -113,6 +113,7 @@ opacity: 60%;
 
 .footer__ig {
     height: 25px;
+    width: 25px;
 }
 
 .footer__icon {
@@ -126,7 +127,12 @@ opacity: 60%;
     opacity: 60%;
 }
 
+.footer__link {
+text-decoration: none;
+color: white;
 
+
+}
 
 
 
