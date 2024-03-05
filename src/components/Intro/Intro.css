@@ -95,6 +95,8 @@ background: rgba(0,0,0,0.7);
     .intro {
         height: 700px;
         align-items: center;
+        background-attachment: scroll; 
+       
     }
     .intro__image {
         margin: 0 0 40px 0;

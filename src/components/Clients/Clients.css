@@ -50,6 +50,7 @@ font-size: 25px;
 @media screen and (max-width: 760px) {
     .clients {
         align-items: center;
+        background-attachment: scroll; 
     }
 
     .clients__section {

@@ -90,6 +90,10 @@
 
 
 @media screen and (max-width: 580px) {
+.work{
+    background-attachment: scroll; 
+}
+
     .work__gallery{
         height: auto;
         margin: 110px 20px 90px; 

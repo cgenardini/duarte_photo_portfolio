@@ -102,6 +102,7 @@ justify-content: center;
 @media screen and (max-width: 580px) {
     .port-section {
         height: 400px;
+        background-attachment: scroll; 
     }
 
     .port-section__button{

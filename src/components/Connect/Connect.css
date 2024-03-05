@@ -60,6 +60,7 @@ transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 @media screen and (max-width: 765px) {
     .connect{
         height: 400px;
+        background-attachment: scroll; 
     }
 
     .connect__header{ 
