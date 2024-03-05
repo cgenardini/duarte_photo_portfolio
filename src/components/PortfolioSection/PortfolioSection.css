@@ -16,6 +16,7 @@ justify-content: center;
 
 .port-section_interiors {
     align-items: end;
+    text-align: end;
     background: url('../../images/slides/interior.jpg') no-repeat center/cover;
     background-attachment: fixed;
 }
@@ -27,6 +28,7 @@ justify-content: center;
 
 .port-section_people {
     align-items: end;
+    text-align: end;
     background: url('../../images/slides/people.jpg') no-repeat center/cover;
     background-attachment: fixed;
 }
@@ -39,6 +41,7 @@ justify-content: center;
 
 .port-section_places {
     align-items: end;
+    text-align: end;
     background: url('../../images/slides/lake.webp') no-repeat center/cover;
     background-attachment: fixed;
 }
@@ -96,3 +99,16 @@ justify-content: center;
    z-index: 2;
 }
 
+@media screen and (max-width: 580px) {
+    .port-section {
+        height: 400px;
+    }
+
+    .port-section__button{
+        width: 120px;
+        font-size: 15px;
+    }
+    .port-section__header{
+        font-size: 35px;
+    }
+}

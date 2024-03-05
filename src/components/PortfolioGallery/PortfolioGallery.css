@@ -23,3 +23,16 @@ transition: transform 1.5s ease-in-out;
 .gallery__item:hover {
    transform: scale(1.05);
 }
+
+@media screen and (max-width: 425px) {
+   .gallery {
+      margin: 100px 30px;
+   }
+}
+
+
+@media screen and (max-width: 375px) {
+   .gallery {
+      margin: 100px 20px;
+   }
+}

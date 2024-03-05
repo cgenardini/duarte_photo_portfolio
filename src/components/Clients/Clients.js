@@ -10,7 +10,7 @@ function Clients() {
 
   return (
     <section className="clients" id="clients">
-      <div className="clients__clients">
+      <div className="clients__clients clients__section">
         <h2
           className="clients__clients-title"
           data-aos="fade-down"
@@ -19,7 +19,7 @@ function Clients() {
           Clients
         </h2>
       </div>
-      <div className="clients__featured">
+      <div className="clients__featured clients__section">
         <h2
           className="clients__featured-title"
           data-aos="fade-up"

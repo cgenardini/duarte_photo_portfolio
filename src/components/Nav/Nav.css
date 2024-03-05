@@ -61,3 +61,23 @@ color: #7f2b0a;
     opacity: 80%;
 }
 
+
+@media screen and (max-width: 770px) {
+.nav {
+width: 100vw;
+}
+}
+
+@media screen and (max-width: 425px) {
+    .nav__name {
+        font-size: 18px;
+    }
+}
+    
+
+@media screen and (max-width: 375px) {
+    .nav__name{
+        display: none;
+    }
+
+    }

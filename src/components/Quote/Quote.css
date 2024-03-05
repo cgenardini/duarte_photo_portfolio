@@ -28,3 +28,20 @@ z-index: 1;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
 }
+
+@media screen and (max-width: 765px) {
+    .quote__quote{
+        font-size: 25px;
+        margin: 0 60px;
+        text-align: center;
+    } 
+}
+
+
+@media screen and (max-width: 425px) {
+.quote{
+    height: 400px;
+}
+}
+
+

@@ -21,6 +21,7 @@ align-items: center;
     max-width: 800px;
     height: 600px;
     border-radius: 2px;
+    object-fit: contain;
 }
 
 .image-popup__close-button{
@@ -33,4 +34,41 @@ align-items: center;
     right: 20px;
     cursor: pointer;
     padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .image-popup__image{
+        max-width: 600px;
+        max-height: 500px;
+    }
+
+
+}
+
+@media screen and (max-width: 730px) {
+    .image-popup__image{
+        max-width: 400px;
+        max-height: 490px;
+        object-fit: contain;
+    }
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .image-popup__image{
+        max-width: 370px;
+        max-height: 490px;
+       
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .image-popup__image{
+        max-width: 315px;
+        max-height: 490px;
+       
+    }
 }

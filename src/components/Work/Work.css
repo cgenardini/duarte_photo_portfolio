@@ -87,3 +87,48 @@
     background-color: white;
     color: #001e17;
 }
+
+
+@media screen and (max-width: 580px) {
+    .work__gallery{
+        height: auto;
+        margin: 110px 20px 90px; 
+    }
+
+    .work__image-card {
+        height: 315px;
+    }
+    .work__image{
+        width: 315px;
+        height: 315px;
+    }
+
+    .work__header {
+        font-size: 25px;
+    }
+    .work__button {
+        width: 120px;
+        margin-bottom: 100px;
+    }
+
+    .work__gallery-container {
+        min-height: 680px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .work__gallery{
+        height: auto;
+        margin: 100px 20px 80px; 
+    }
+
+    .work__image-card {
+        height: 280px;
+    }
+    .work__image{
+        width: 280px;
+        height: 280px;
+    }
+
+}

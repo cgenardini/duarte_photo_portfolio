@@ -16,6 +16,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Contact from "../Contact/Contact";
 import { TopPageContext } from "../../context/TopPageContext";
+import { sendEmail } from "../../utils/emailAPI";
 
 function App() {
   const location = useLocation();
@@ -23,6 +24,7 @@ function App() {
   const [currentPopup, setCurrentPopup] = React.useState("");
   const [currentPage, setCurrentPage] = React.useState("");
   const [imagePopupOpen, setImagePopupOpen] = React.useState(false);
+  const [email, setEmail] = React.useState({});
 
   const handleTopPage = (e) => {
     e.preventDefault();

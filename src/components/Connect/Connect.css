@@ -56,3 +56,17 @@ transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     background: rgba(0, 0, 0, 0.5);
     z-index: 0;
 }
+
+@media screen and (max-width: 765px) {
+    .connect{
+        height: 400px;
+    }
+
+    .connect__header{ 
+        font-size: 25px;
+    }
+
+    .connect__button {
+        width: 120px;
+    }
+}

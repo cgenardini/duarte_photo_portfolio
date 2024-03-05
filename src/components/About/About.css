@@ -89,3 +89,14 @@ font-family: 'Barlow-Thin';
 .about__paragraph:last-child {
     margin-bottom: 150px;
 }
+
+@media screen and (max-width: 425px) {
+    .about__name {
+margin-top: 200px;
+
+    }
+
+    .about__content {
+        margin: 0 20px;
+    }
+}

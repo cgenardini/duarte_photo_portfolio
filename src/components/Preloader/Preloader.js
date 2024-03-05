@@ -51,7 +51,7 @@ function Preloader({ onClick }) {
           data-aos="fade-up"
           data-aos-duration="3000"
         >
-          Joseph Duarte
+          Joseph Nicholas Duarte
         </h1>
       </div>
     </div>

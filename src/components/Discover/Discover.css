@@ -36,7 +36,7 @@
 .discover__button{
 background-color: transparent;
     height: 40px;
-    width: 180px;
+    width: 150px;
     border: solid 1px white ;
     color: white;
 letter-spacing: .8px;
@@ -53,4 +53,31 @@ letter-spacing: .8px;
 .discover__button:hover{
     background-color: white;
     color: #001e17;
+}
+
+@media screen and (max-width: 765px) {
+    .discover{
+        height: 600px;
+    }
+
+    .discover__header{
+        font-size: 25px;
+
+    }
+
+    .discover__button{
+width: 120px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+   .discover{
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .discover__button{
+    margin: 0;
+   }
 }

@@ -45,3 +45,16 @@ font-size: 25px;
 writing-mode: vertical-rl;
 font-size: 25px;
 }
+
+
+@media screen and (max-width: 760px) {
+    .clients {
+        align-items: center;
+    }
+
+    .clients__section {
+        height: 600px;
+        width: 100vw;
+    }
+
+}

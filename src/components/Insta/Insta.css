@@ -36,3 +36,59 @@
 .insta__paragraph {
    font-size: 20px;
 }
+
+@media screen and (max-width: 665px) {
+.insta{
+    flex-direction: column;
+    height: auto;
+  
+}
+
+.insta__container{
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+.insta__title-container{
+
+    justify-content: center;
+}
+
+.insta__image{
+    margin: 80px 0 40px;
+}
+
+}
+
+@media screen and (max-width: 530px) {
+    .insta__title {
+        font-size: 25px;
+    }
+
+    .insta__logo{
+        width: 35px;
+        height: 35px;
+        margin-left: 20px;
+    }
+
+    .insta__paragraph{
+        font-size: 18px;
+    }
+
+    .insta__container{
+        margin: 0 20px;  
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .insta__title-container{
+        flex-direction: column-reverse;
+    }
+
+.insta__logo {
+ margin: 0;
+}
+
+}

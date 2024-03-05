@@ -135,4 +135,21 @@ color: white;
 }
 
 
+@media screen and (max-width: 425px) {
+.footer{
+  height: 200px;
+    flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+    .footer__nav{
+display: none;
+    }
+
+    .footer__socials{
+        margin: 0;
+    }
+}
+
 

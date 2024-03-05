@@ -116,3 +116,22 @@ transition: height 1s ease;
 .slide7:hover{
     height: 303px;
 } */
+
+
+@media screen and (max-width: 765px) {
+    .image-collage{
+        width: 300px; 
+    height: 100px;  
+    }
+
+    .image-collage__slide{
+        width: 100px; 
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+.image-collage{
+    display: none;
+}
+}

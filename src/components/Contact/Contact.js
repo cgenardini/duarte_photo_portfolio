@@ -3,7 +3,7 @@ import "./Contact.css";
 import ContactForm from "../ContactForm/ContactForm";
 import Work from "../Work/Work";
 
-function Contact() {
+function Contact({}) {
   return (
     <div className="contact">
       <section className="contact__header">

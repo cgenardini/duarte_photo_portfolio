@@ -67,3 +67,20 @@ cursor: pointer;
     z-index: 1;
 }
 
+
+@media screen and (max-width: 375px) {
+.port-category__header{
+    height: 400px;
+}
+
+    .port-category__title{
+        align-self: flex-start;
+        justify-self: start;
+        margin: 0 0 30px 20px;
+        font-size: 35px;
+    }
+
+    .port-category__header-button {
+        margin-left: 20px;
+    }
+}
