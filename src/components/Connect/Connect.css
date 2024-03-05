@@ -67,7 +67,5 @@ transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
         font-size: 25px;
     }
 
-    .connect__button {
-        width: 120px;
-    }
+   
 }

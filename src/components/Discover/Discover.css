@@ -65,9 +65,7 @@ letter-spacing: .8px;
 
     }
 
-    .discover__button{
-width: 120px;
-    }
+   
 }
 
 @media screen and (max-width: 320px) {
