@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/duarte_photo_portfolio/static/css/main.0ba5abd2.css",
-    "main.js": "/duarte_photo_portfolio/static/js/main.dfad30f3.js",
+    "main.css": "/duarte_photo_portfolio/static/css/main.e81f2660.css",
+    "main.js": "/duarte_photo_portfolio/static/js/main.e6800b7e.js",
     "static/js/592.ecd546df.chunk.js": "/duarte_photo_portfolio/static/js/592.ecd546df.chunk.js",
     "static/media/vid3.mp4": "/duarte_photo_portfolio/static/media/vid3.0472b1113deb21b27b19.mp4",
     "static/media/vid2.mp4": "/duarte_photo_portfolio/static/media/vid2.9a54b9082ae41196554e.mp4",
     "static/media/vid4.mp4": "/duarte_photo_portfolio/static/media/vid4.00819b3701be7e144fee.mp4",
     "static/media/vid1.mp4": "/duarte_photo_portfolio/static/media/vid1.ad88efbb4b9176336ac2.mp4",
     "static/media/slide9.webp": "/duarte_photo_portfolio/static/media/slide9.2c53859b7af2fd0b927e.webp",
+    "static/media/JNDuarte-7990.jpg": "/duarte_photo_portfolio/static/media/JNDuarte-7990.c770c3aca8115b8319e9.jpg",
     "static/media/interior.jpg": "/duarte_photo_portfolio/static/media/interior.bf231a3dbb3387d73aa1.jpg",
     "static/media/slide2.webp": "/duarte_photo_portfolio/static/media/slide2.10480ad421f8cae2ee18.webp",
     "static/media/event.jpg": "/duarte_photo_portfolio/static/media/event.e41011dba892661edc02.jpg",
@@ -22,6 +23,7 @@
     "static/media/slide3.jpg": "/duarte_photo_portfolio/static/media/slide3.493839a1a8726ed897a2.jpg",
     "static/media/slide13.webp": "/duarte_photo_portfolio/static/media/slide13.9684aacf60ba269fd291.webp",
     "static/media/slide7.webp": "/duarte_photo_portfolio/static/media/slide7.cb1bd862b857b6dae0ff.webp",
+    "static/media/ybXhut-7216.jpg": "/duarte_photo_portfolio/static/media/ybXhut-7216.ef76165642c3c3ba033f.jpg",
     "static/media/slide10.webp": "/duarte_photo_portfolio/static/media/slide10.6a6881d6ee28a7b1ba40.webp",
     "static/media/slide12.webp": "/duarte_photo_portfolio/static/media/slide12.22743d99f2e246bc26a5.webp",
     "static/media/slide5.webp": "/duarte_photo_portfolio/static/media/slide5.5d95b8efdb2f1af2f2c3.webp",
@@ -33,6 +35,7 @@
     "static/media/Barlow-Light.woff": "/duarte_photo_portfolio/static/media/Barlow-Light.1e6adc5f852f16d19ea0.woff",
     "static/media/Barlow-Regular.woff": "/duarte_photo_portfolio/static/media/Barlow-Regular.8793c0edb0033b449c0a.woff",
     "static/media/Barlow-Thin.woff": "/duarte_photo_portfolio/static/media/Barlow-Thin.2fdc356e910fea9bb75b.woff",
+    "static/media/JoeLogo.svg": "/duarte_photo_portfolio/static/media/JoeLogo.bfcde949ec51f4b480afeb90ce5677f0.svg",
     "index.html": "/duarte_photo_portfolio/index.html",
     "static/media/linkedin.svg": "/duarte_photo_portfolio/static/media/linkedin.2b2c49c7ada5ffb8b9a3e9c0886b2247.svg",
     "static/media/instagram-red.svg": "/duarte_photo_portfolio/static/media/instagram-red.bc17350c9e0e00dbdbdcace7f5c521f0.svg",
@@ -41,14 +44,14 @@
     "static/media/triangle.svg": "/duarte_photo_portfolio/static/media/triangle.fbebe96a673f48fc5a82a3c3af774f5a.svg",
     "static/media/Close-Icon.svg": "/duarte_photo_portfolio/static/media/Close-Icon.c828eb2ee5e2ba0f67a0.svg",
     "static/media/gmail.svg": "/duarte_photo_portfolio/static/media/gmail.5251a9ac20629dccc601b9f1b883c2e6.svg",
-    "static/media/menu.svg": "/duarte_photo_portfolio/static/media/menu.6150d07a056038976b5e.svg",
+    "static/media/menu.svg": "/duarte_photo_portfolio/static/media/menu.ef9116b6defed5abf6b9.svg",
     "static/media/arrow.svg": "/duarte_photo_portfolio/static/media/arrow.dcd18c8d3e78fe9dd2c62e9eb255505f.svg",
-    "main.0ba5abd2.css.map": "/duarte_photo_portfolio/static/css/main.0ba5abd2.css.map",
-    "main.dfad30f3.js.map": "/duarte_photo_portfolio/static/js/main.dfad30f3.js.map",
+    "main.e81f2660.css.map": "/duarte_photo_portfolio/static/css/main.e81f2660.css.map",
+    "main.e6800b7e.js.map": "/duarte_photo_portfolio/static/js/main.e6800b7e.js.map",
     "592.ecd546df.chunk.js.map": "/duarte_photo_portfolio/static/js/592.ecd546df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ba5abd2.css",
-    "static/js/main.dfad30f3.js"
+    "static/css/main.e81f2660.css",
+    "static/js/main.e6800b7e.js"
   ]
 }
