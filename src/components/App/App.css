@@ -14,15 +14,8 @@
   src: url('../../fonts/Barlow-Thin.woff') format('woff');
 }
 
-@font-face {
-  font-family: 'Barlow-SemiBold';
-  src: url('../../fonts/Barlow-SemiBold.woff') format('woff');
-}
 
-@font-face {
-  font-family: 'Montserrat-Black';
-  src: url('../../fonts/Montserrat-Black.woff') format('woff');
-}
+
 
 @font-face {
   font-family: 'Anton-Reg';

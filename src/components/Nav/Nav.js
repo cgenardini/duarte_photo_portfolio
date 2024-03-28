@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Nav.css";
-import logo from "../../images/triangle.svg";
+import logo from "../../images/JoeLogo.svg";
 import { Link } from "react-router-dom";
 
 function Nav({ onClickNavMenu, currentPage }) {

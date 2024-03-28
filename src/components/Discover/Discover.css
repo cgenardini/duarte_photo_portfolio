@@ -1,7 +1,8 @@
 .discover{
     height: 900px;
     /* background: url('../../images/slides/slide5.jpg') no-repeat center/cover; */
-    background-color: #001e17;
+    /* background-color: #001e17; */
+    background-color: #000000;
     background-attachment: fixed;
     position: relative;
     flex-direction: column;

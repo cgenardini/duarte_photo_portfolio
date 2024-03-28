@@ -16,7 +16,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Contact from "../Contact/Contact";
 import { TopPageContext } from "../../context/TopPageContext";
-import { sendEmail } from "../../utils/emailAPI";
 
 function App() {
   const location = useLocation();
@@ -93,30 +92,35 @@ function App() {
     <div className="app" onClick={handleClickOutsideClose}>
       <TopPageContext.Provider value={{ handleTopPage }}>
         {preloader && <Preloader onClick={handleClosePreloader} />}
-        <Nav onClickNavMenu={handleOpenNavMenu} currentPage={currentPage} />
-        <Routes>
-          <Route path="/info" element={<Info />} />
-          <Route
-            path="/portfolio/*"
-            element={
-              <Portfolio
-                imagePopupOpen={imagePopupOpen}
-                setImagePopupOpen={setImagePopupOpen}
+        {!preloader && (
+          <>
+            <Nav onClickNavMenu={handleOpenNavMenu} currentPage={currentPage} />
+            <Routes>
+              <Route path="/info" element={<Info />} />
+              <Route
+                path="/portfolio/*"
+                element={
+                  <Portfolio
+                    imagePopupOpen={imagePopupOpen}
+                    setImagePopupOpen={setImagePopupOpen}
+                  />
+                }
               />
-            }
-          />
-          <Route path="/contact" element={<Contact />} />
-          <Route
-            path="/"
-            element={
-              <>
-                <Header />
-                <Main handleTopPage={handleTopPage} />
-              </>
-            }
-          ></Route>
-        </Routes>
-        <Footer handleTopPage={handleTopPage} />
+              <Route path="/contact" element={<Contact />} />
+              <Route
+                path="/"
+                element={
+                  <>
+                    <Header />
+                    <Main handleTopPage={handleTopPage} />
+                  </>
+                }
+              ></Route>
+            </Routes>
+            <Footer handleTopPage={handleTopPage} />
+          </>
+        )}
+
         {currentPopup === "nav" && (
           <NavPopup
             onClickClose={handleClosePopup}

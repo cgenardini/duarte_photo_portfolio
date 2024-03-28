@@ -30,7 +30,7 @@ function PortfolioSection({ portName, title }) {
       >
         <Link to={`/portfolio/${portName}`} className="port-section__link">
           <button type="button" className="port-section__button">
-            View Gallery
+            Gallery
           </button>
         </Link>
       </div>

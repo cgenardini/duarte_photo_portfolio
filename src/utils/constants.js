@@ -19,6 +19,7 @@ import slide18 from "../images/slides/interior.jpg";
 import slide19 from "../images/slides/lake.webp";
 import slide20 from "../images/slides/people.jpg";
 import slide21 from "../images/slides/photographer.webp";
+import slide22 from "../images/slides/ybXhut-7216.jpg";
 
 import vid1 from "../video/vid1.mp4";
 import vid2 from "../video/vid2.mp4";
@@ -126,6 +127,7 @@ export const slides = [
     src: slide21,
     type: "image",
   },
+  { src: slide22, type: "image" },
 ];
 
 export const images = [
